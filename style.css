@@ -51,7 +51,7 @@ h1 {
     .nah {
         width: calc((100% - 40px) / 3);
     }
-    .top {
+    .All {
         justify-content: flex-start;
     }
 }
@@ -60,7 +60,7 @@ h1 {
     .nah {
         width: calc(50% - 10px);
     }
-    .top{
+    .All {
         justify-content: flex-start;
     }
 }
@@ -69,7 +69,7 @@ h1 {
     .nah {
         width: auto;
     }
-    .top {
+    .All {
         flex-direction: column;
     }
 }
