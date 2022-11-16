@@ -47,6 +47,14 @@ h1 {
 }.group_3 *:not(.column) {
     background: rgb(161, 105, 22);
 }
+@media (max-width: 992px) {
+    .item {
+        width: calc((100% - 40px) / 3);
+    }
+    .bottom {
+        justify-content: flex-start;
+    }
+}
 @media (max-width:768px) {
     .item {
         width: calc(50% - 10px);
